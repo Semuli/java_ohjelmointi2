@@ -1,6 +1,6 @@
 function even(list) {
   let evenlist = [];
-  for (num of list) {
+  for (let num of list) {
     if (num % 2 === 0) {
       evenlist.push(num);
     }
