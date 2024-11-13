@@ -1,5 +1,5 @@
 function roll_dice() {
-  let num = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+  let num = Math.floor(Math.random() * (6)) + 1;
   return num;
 }
 
