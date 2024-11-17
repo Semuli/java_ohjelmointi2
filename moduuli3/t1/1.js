@@ -5,4 +5,4 @@ target.innerHTML =
     '<li>Second item</li>\n' +
     '<li>Third item</li>';
 
-target.setAttribute('class', 'my-list')
+target.setAttribute('class', 'my-list');

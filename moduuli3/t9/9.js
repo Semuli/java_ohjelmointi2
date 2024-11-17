@@ -23,7 +23,7 @@ function calculate(print) {
         result *= num;
       } else if (operation === '/') {
         if (num === 0) {
-          result = "Don't divide with zero...";
+          result = 'Don\'t divide with zero...';
         } else {
           result /= num;
         }

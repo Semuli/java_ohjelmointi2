@@ -14,12 +14,12 @@ const students = [
   },
 ];
 
-const target = document.querySelector('#target')
+const target = document.querySelector('#target');
 
 for (let i of students) {
-  const option = document.createElement('option')
+  const option = document.createElement('option');
   //option.setAttribute('value', i['id'])
-  option.value = i.id
-  option.innerText = i['name']
-  target.appendChild(option)
+  option.value = i.id;
+  option.innerText = i['name'];
+  target.appendChild(option);
 }

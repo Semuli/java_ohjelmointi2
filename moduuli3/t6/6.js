@@ -1,7 +1,7 @@
 function button_pressed() {
-  alert("Button Clicked")
+  alert('Button Clicked');
 }
 
-const button = document.querySelector('button')
+const button = document.querySelector('button');
 
-button.addEventListener('click', button_pressed)
+button.addEventListener('click', button_pressed);

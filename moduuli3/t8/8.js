@@ -16,7 +16,7 @@ function math(num1, num2, operation, print) {
     }
   }
   if (isNaN(result)) {
-    result = "Give numbers"
+    result = 'Give numbers';
   }
   print.innerText = result;
 }
